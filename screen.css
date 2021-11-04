@@ -7,3 +7,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+html {
+  color: #111;
+  background-color: #EEE;
+  font-family: Georgia, "Times New Roman", Times, Roman, serif;
+  font-size: 18px;
+  line-height: 24px;
+}
