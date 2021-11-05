@@ -42,6 +42,13 @@ h4 {
 /* Layout Styles */
 
 /* Modular Styles */
+img {
+  display: block;
+  max-width: 55%;
+
+}
+
+
 #navigation {
   background-color: #3e000d;
   overflow: hidden;
