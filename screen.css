@@ -45,9 +45,13 @@ h4 {
 img {
   display: block;
   max-width: 55%;
+  padding-left: 10px;
 
 }
 
+.archery {
+  padding: 10px
+}
 
 #navigation {
   background-color: #3e000d;
@@ -90,4 +94,13 @@ footer{
   #content ul > li {
     flex: 1 1 auto;
   }
+}
+@media screen and (min-width: 600px) {
+  .archery{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
 }
