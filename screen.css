@@ -35,7 +35,7 @@ h3 {
 }
 h4 {
   text-decoration: underline;
-  padding: .556em 0em; /* 10/18 == .556em */
+  padding: 0.556em 0em; /* 10/18 == .556em */
 }
 
 /* Layout Styles */
@@ -44,12 +44,12 @@ h4 {
 img {
   display: block;
   max-width: 55%;
-  padding-left: .556em; /* 10/18 == .556em */
+  padding-left: 0.556em 0em; /* 10/18 == .556em */
 
 }
 
 .archery {
-  padding: .556em; /* 10/18 == .416em */
+  padding: 0.556em 0em; /* 10/18 == .556em */
 }
 
 #navigation {
@@ -62,7 +62,7 @@ img {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: .778em .888em; /* 14/18 == .778em   16/18 == .888em */
+  padding: 0.778em 0.888em; /* 14/18 == .778em   16/18 == .888em */
   text-decoration: none;
   font-size: 1em; /* 18/18 == 1em */
   font-family: "Lucida Console", "Courier New", monospace;
@@ -86,7 +86,7 @@ footer {
 /* State Styles */
 /* 600/16 == 37.5em */
 @media screen and (min-width: 37.5em) {
-  #content ul {
+  #content #resume ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -98,14 +98,20 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
+  }
+  figcaption{
+    display: flex;
+    flex-wrap: wrap;
   }
 
 }
 /* 800/16 == 50em */
 @media screen and (min-width: 50em) {
-  .archery{
-    display flex;
+  .archery {
+    display: flex;
     flex-direction: column;
+
+
   }
 }
