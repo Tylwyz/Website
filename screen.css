@@ -89,7 +89,7 @@ footer {
   #content #resume .p-skill ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 10px 20px;
+    grid-gap: .556em 1.111em; /* 10/18 == .556em 20/18 == 1.111  */ 
     grid-column-end: auto;
     justify-content: center;
   
