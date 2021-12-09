@@ -86,13 +86,11 @@ footer {
 /* State Styles */
 /* 600/16 == 37.5em */
 @media screen and (min-width: 37.5em) {
-  #content #resume ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  #content ul > li {
-    flex: 1 1 auto;
+  #content #resume .p-skill ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px 20px;
+  
   }
   .archery {
     display: flex;
